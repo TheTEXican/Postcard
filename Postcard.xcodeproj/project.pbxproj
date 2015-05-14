@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		304A08A21AFB04CC0084669D /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 304A08A11AFB04CC0084669D /* download.jpeg */; };
 		304E07861AF9BF0500654A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E07851AF9BF0500654A0D /* AppDelegate.swift */; };
 		304E07881AF9BF0500654A0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E07871AF9BF0500654A0D /* ViewController.swift */; };
 		304E078B1AF9BF0500654A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304E07891AF9BF0500654A0D /* Main.storyboard */; };
 		304E078D1AF9BF0500654A0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304E078C1AF9BF0500654A0D /* Images.xcassets */; };
 		304E07901AF9BF0500654A0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E078E1AF9BF0500654A0D /* LaunchScreen.xib */; };
 		304E079C1AF9BF0500654A0D /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E079B1AF9BF0500654A0D /* PostcardTests.swift */; };
+		304E07A61AFB005D00654A0D /* grata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 304E07A51AFB005D00654A0D /* grata.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		304A08A11AFB04CC0084669D /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		304E07801AF9BF0500654A0D /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304E07841AF9BF0500654A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304E07851AF9BF0500654A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		304E07951AF9BF0500654A0D /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304E079A1AF9BF0500654A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304E079B1AF9BF0500654A0D /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		304E07A51AFB005D00654A0D /* grata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grata.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		304E07831AF9BF0500654A0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				304A08A11AFB04CC0084669D /* download.jpeg */,
 				304E07841AF9BF0500654A0D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +112,7 @@
 		304E07991AF9BF0500654A0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				304E07A51AFB005D00654A0D /* grata.jpg */,
 				304E079A1AF9BF0500654A0D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				304E078B1AF9BF0500654A0D /* Main.storyboard in Resources */,
 				304E07901AF9BF0500654A0D /* LaunchScreen.xib in Resources */,
+				304A08A21AFB04CC0084669D /* download.jpeg in Resources */,
 				304E078D1AF9BF0500654A0D /* Images.xcassets in Resources */,
+				304E07A61AFB005D00654A0D /* grata.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				304E07A11AF9BF0500654A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		304E07A21AF9BF0500654A0D /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				304E07A41AF9BF0500654A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
